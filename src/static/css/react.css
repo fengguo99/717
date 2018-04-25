@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body,div,p,ul,ol,li,dl,dt,dd,
+h1,h2,h3,h4,h5,h6,table,tr,td,
+form,input,select,textarea,span,
+img,a,em,strong{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 14px;
+    color: #000000;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 14px;
+}
+input,select,textarea{
+    vertical-align: middle;
+}
+img{
+    border: 0;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    color: #333333;
+}
+a:hover{
+    text-decoration: underline;
+}
+#root{
+    width: 100%;
+    height: 100%;
+}

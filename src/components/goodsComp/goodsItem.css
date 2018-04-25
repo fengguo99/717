@@ -1,0 +1,32 @@
+.goods-item{
+    width: 50%;
+    line-height: 30px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #eee;
+}
+.goods-item dt{
+    height: auto;
+    overflow: hidden;
+}
+.goods-item p{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.goods-item img{
+    width: 100%;
+}
+.goods-item:nth-of-type(2n+1){
+    border-right: 2px solid #eee;
+}
+.goods-item .goods-nums{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+.goods-item .goods-price{
+    margin-left: 5px;
+}
+.goods-item .goods-nums{
+    margin-right: 15px;
+}

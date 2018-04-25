@@ -1,0 +1,36 @@
+#home{
+    width: 100%;
+    height: 100%;
+}
+#home header{
+    height: 45px;
+    text-align: center;
+}
+#home header input{
+    margin-top: 15px;
+}
+#home .home-cat{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#home .home-cat dl{
+    line-height: 30px;
+    flex-basis: 25%;
+}
+#home .home-cat dl dd{
+    text-align: center;
+}
+#home .home-cat dl img{
+    width: 55px;
+    margin: 8px auto;
+}
+#home .verso{
+    width: 100%;
+    display: flex;
+}
+#home .verso .goods_list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
